@@ -1,0 +1,14 @@
+name: Fly
+version: '${project.version}'
+main: com.ashkiano.fly.Fly
+api-version: 1.16
+authors: [ AshKiano ]
+commands:
+  fly:
+    description: Toggle flying mode on or off
+    usage: "/fly"
+    permission: fly.use
+permissions:
+  fly.use:
+    description: Allows the user to toggle flying mode
+    default: op
